@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-minimal-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.ts",
+    "build": "npm run lint && tsc",
+    "lint": "eslint .",
+    "format": "prettier . --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.11",
+    "js-yaml": "^4.1.0",
+    "kafkajs": "^2.2.4",
+    "uuid": "^9.0.1",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "@types/config": "^3.3.4",
+    "@types/express-jwt": "^7.4.2",
+    "@types/http-errors": "^2.0.4",
+    "@types/node": "^20.12.11",
+    "@types/winston": "^2.4.4",
+    "eslint": "^8.57.0",
+    "globals": "^15.1.0",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.8.0"
+  }
+}
